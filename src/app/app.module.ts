@@ -9,6 +9,8 @@ import { AdminComponent } from './admin/admin.component';
 import { SupervisorComponent } from './supervisor/supervisor.component';
 import { CentralManagerComponent } from './central-manager/central-manager.component';
 import { AuditorComponent } from './auditor/auditor.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AuditorComponent } from './auditor/auditor.component';
     AdminComponent,
     SupervisorComponent,
     CentralManagerComponent,
-    AuditorComponent
+    AuditorComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
